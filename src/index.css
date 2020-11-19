@@ -150,3 +150,28 @@ footer {
 .button.primary {
   background-color: #f0c040;
 }
+
+/* Filter */
+
+.filter {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 1rem;
+  border-bottom: 0.1rem solid #c0c0c0;
+}
+
+.filter div {
+  flex: 1;
+}
+
+.filter select {
+  background-color: #fff;
+  border: 0.1rem solid #ededed;
+  border-radius: 2px;
+  outline: none;
+  padding: 0.2rem 0.7rem 0.2rem 0.5rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  box-shadow: 0 1px 5px #00000024;
+}
